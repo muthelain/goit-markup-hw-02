@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+
+:root{
+    --secondary: rgba(33, 150, 243, 1);
+}
+body{  
+    font-family: "Roboto", sans-serif;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(33, 33, 33, 1);
+}
+.container{
+    max-width: 73%;
+    margin: auto;
+    width: 100%;
+}
+
+
+/* HEADER */
+.header{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.logo{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.logo a{
+    color:#000000;
+    text-decoration: none;
+}
+
+.logo span{
+    color: #2196F3;
+}
+
+/* HEADER LIST */
+.header__list{
+    margin: 0 100px;
+}
+
+.header__list ul li {
+    display: inline-block;
+    list-style: none;
+    padding-left: 50px;
+
+}
+
+.header__list a{
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.header__list a.active,
+.header__list a:hover {
+    color: #2196F3;
+}
+
+
+/* HEADER FEEDBACK */
+.header__contact{
+    position: absolute;
+    right: 0;
+}
+
+.header__contact a{
+    padding-left: 50px;
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+.header__contact svg{
+    padding-right: 10px;
+}
+
+.header__contact a:hover {
+    color: #2196F3;
+}
+
+/* SERVICE */
+.service{
+    width: 100%;
+    background-color: #2F303A;
+    display: flex;
+}
+
+.servise__inside{
+    margin: 200px 28% ;
+    max-width: 700px;
+    text-align: center;
+}
+.servise__text{
+    margin: auto;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    padding-bottom: 40px;
+}
+.servise__button{
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    width: 216px;
+    height: 50px;
+    cursor: pointer;
+}
+
+/* peculiarities */
+.peculiarities{
+    padding-top: 95px;
+    padding-bottom: 94px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.peculiarities__list{
+    padding: 0;     
+}
+.peculiarities__list li{
+    list-style: none;
+    display: inline-block;
+    max-width: 270px;
+    padding-right: 30px;
+}
+
+
+/* DOING */
+
+
+
+/* FOOTER */
+footer{
+    background-color: #2F303A;
+    display: flex;
+}
+
+.footer__inside{
+    padding: 50px 0;
+
+}
+
+.footer__address{
+    padding-top: 20px;
+}
+
+.footer__address ul{
+    list-style: none;
+    right: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.footer__address a {
+    padding: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+
+
+  
+
+
+
+
+
+
+
+
+/* PORTFOLIO */
+
+
+
+
+
+
+
+/* BTN */
+
+.portfolio__filters li button{
+    cursor: pointer;
+}
