@@ -154,6 +154,25 @@ body{
     max-width: 270px;
     padding-right: 30px;
 }
+.peculiarities__text h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.peculiarities__text p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    letter-spacing: 0.03em;
+    color: var(--secondcolor);
+}
 
 
 /* DOING */
