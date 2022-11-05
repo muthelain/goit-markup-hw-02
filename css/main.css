@@ -327,7 +327,7 @@ footer{
     list-style: none;
 }
 .portfolio__filters button{
-    border-radius: 4px;
+
     background-color: var(--bgcbutton);
     color: var(--maincolor);
     font-family: 'Roboto';
