@@ -223,6 +223,7 @@ body{
 .team__title{
     padding-top: 94px;
     text-align: center;
+    color: var(--maincolor);
 
     font-family: 'Roboto';
     font-style: normal;
