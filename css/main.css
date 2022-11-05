@@ -29,6 +29,7 @@ body{
     position: relative;
 }
 
+
 .logo{
     font-family: 'Raleway';
     font-weight: 700;
@@ -46,6 +47,11 @@ body{
     color: var(--actcolor);
 }
 
+.logo:hover,
+.logo:focus {
+    color: var(--accent-color);
+    background-color: transparent;
+} 
 /* HEADER LIST */
 .header__list{
     margin: 0 100px;
@@ -355,7 +361,7 @@ footer{
 
     letter-spacing: 0.06em;
     
-    color:  var(--coiortextport);
+    color:  var(--maincolor);
 }
 .project p{
     font-family: 'Roboto';
