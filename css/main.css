@@ -12,8 +12,8 @@
 }
 body{  
     font-family: "Roboto", sans-serif;
-    background-color: rgba(255, 255, 255, 1);
-    color: var(--whitecolor);
+    background-color: var(--whitecolor);
+    color: var(--maincolor);
 }
 .container{
     max-width: 73%;
@@ -140,6 +140,14 @@ body{
     width: 216px;
     height: 50px;
     cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    border: transparent;
+    color: #FFFFFF;
 }
 
 /* peculiarities */
@@ -154,7 +162,6 @@ body{
     padding: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 .peculiarities__list li{
     list-style: none;
@@ -170,7 +177,6 @@ body{
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--secondcolor);
 }
 .peculiarities__text p{
     font-family: 'Roboto';
@@ -346,6 +352,7 @@ footer{
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     cursor: pointer;
+    border: transparent;
 }
 .portfolio__filters button:hover,
 .portfolio__filters button.active{
